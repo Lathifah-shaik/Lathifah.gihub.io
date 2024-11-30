@@ -13,8 +13,9 @@ const Header = () => {
         position: "fixed",
         display: "flex",
         justifyContent: "center",
+        flexWrap: "wrap",
         gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
+        background: "#01030d",
         padding: "1rem",
         top: 0,
         width: "100%",
@@ -23,7 +24,7 @@ const Header = () => {
     >
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#portfolio">Projects</a>
       <a href="#footer">Contact</a>
     </div>
   );
